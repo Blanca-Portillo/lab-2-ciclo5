@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #6b6161;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #dcd7d7;
 }
 
 .grid {
@@ -59,4 +59,36 @@ p {
     .card {
         width: 100%;
     }
+}
+
+.card-image {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-bottom: 10px; 
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+.visible {
+    display: block;
+}
+
+
+.title-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px; 
+    margin-bottom: 20px; 
+}
+
+.title-image {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
 }
